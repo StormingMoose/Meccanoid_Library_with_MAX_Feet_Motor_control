@@ -177,7 +177,7 @@ void MeccaBrain :: wheel(int wheelNum, byte direction){
 //
 //
 	if(moduleType[wheelNum] == 'M'){
-    Serial.print("mb Motor  ");   Serial.println(wheelNum); 
+//    Serial.print("mb Motor  ");   Serial.println(wheelNum); 
 	 	outputByte[wheelNum] = direction;
 	}		
 }
