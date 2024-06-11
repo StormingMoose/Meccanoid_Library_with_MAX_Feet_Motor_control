@@ -38,7 +38,7 @@ void setup() {
   Serial.begin(115200);                              // your electric avenue to tell the world
   Serial.println("\n\n");
 
-  pinMode(chainpin1, OUTPUT);                        // no LIM here
+//  pinMode(chainpin1, OUTPUT);                        // is done in the cpp included
               
   for (int i = 0; i < 40; i++){                     // WAKE UP THE CHAIN!!!!
     chain1.communicate();
