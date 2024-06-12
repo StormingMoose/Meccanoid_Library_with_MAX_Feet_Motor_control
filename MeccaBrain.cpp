@@ -291,7 +291,7 @@ void MeccaBrain :: communicate(){
 
   
     if (inputByte == 0x05 && moduleType[moduleNum] == '_'){   // Storming Moose 2024 add the 5 for the new motor       
-      outputByte[moduleNum] = 0xF4;                           // if received back 0x05 (module ID is a M.A.X. Motor SM-03), then change servo color to Blue
+      outputByte[moduleNum] = 0xE4;                           // if received back 0x05 (module ID is a M.A.X. Motor SM-03), then change motor color to Blue
     	moduleType[moduleNum] = 'M';                            //  this sets the module type, we change things above too
     }
 
